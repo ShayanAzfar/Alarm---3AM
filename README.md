@@ -5,10 +5,13 @@ Dark theme Alarm to help you stay awaked at midnight, so you can code all night 
 ### Its a simple functional alarm that buzzes when goes off, made with simple vanilla HTML CSS and Javascript.
 
 ## Why i made it?
-### Because 3am is reopned for some time and I have to make newer projects for Snacks and Pheripheral Grants and will try to win the cap!
+### To not fall asleep when coding all nighter or can be used to wake you up at night so you can code whole night to hourmaxx your 3am projects... Ih also made this to learn new JavaScript Codes!
 
 ## How to Enter time in the Alarm?
 ### You have to click on the clock icon, than it will open some time options, you can select any future time AM or PM, it will start buzzing when the time is reached, you have to click stop alarm, if you want it to stop buzzing!
+
+## AI Usage?
+### Used Ai for dark space color theme in css, and also for the javascript alarm logic.
 
 ## Inspiration?
 ### A simple timer or google timer with dark theme twist.
