@@ -1,5 +1,6 @@
 const clock = document.getElementById('clock');
 const statusTag = document.getElementById('status');
+const title = document.querySelector('header h1');
 const box = document.querySelector('.signal');
 
 const timeInput = document.getElementById('alarm-time');
@@ -45,6 +46,7 @@ function triggerAlarm() {
     alertPan.classList.remove('hidden');
     statusTag.textContent = 'STRANGE ACTIVE';
     statusTag.style.color = 'rgb(235, 70, 70)';
+    title.style.color = 'rgb(235, 70, 70)';
 
     playBeep();
     beepLoop = setInterval(playBeep, 700);
@@ -100,6 +102,7 @@ offBtn.addEventListener('click', () => {
     alertPan.classList.add('hidden');
     statusTag.textContent = 'SIGNAL STABLE'
     statusTag.style.color = '#5793e6';
+    title.style.color = '#fff';
 });
 
 setInterval(updateClock, 250);
