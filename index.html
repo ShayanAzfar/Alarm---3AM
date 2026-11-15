@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Alarm - 3am</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="shooting-star" style="top: 20%; left: 80%; animation-delay: 1s;"></div>
+    <div class="shooting-star" style="top: 10%; left: 40%; animation-delay: 3s;"></div>
+
+    <div class="shooting-star" style="top: 15%; left: 0%; animation-delay: 1.5s;"></div>
+    <div class="shooting-star" style="top: 5%; left: -20%; animation-delay: 2.5s;"></div>
+
+    <div class="shooting-star" style="top: 30%; left: 10%; animation-delay: 2s;"></div>
+    <div class="shooting-star" style="top: 15%; left: -40%; animation-delay: 3.5s;"></div>
+
+    <div class="shooting-star" style="top: 10%; left: 20%; animation-delay: 2.2s;"></div>
+    <div class="shooting-star" style="top: 45%; left: 30%; animation-delay: 3.2s;"></div>
+
+    <main class="signal">
+        <span class="status-tag" id="status">SIGNAL STABLE</span>
+
+        <h1 class="clock" id="clock" data-text="00:00:00">00:00:00</h1>
+
+        <div class="row">
+            <input type="time" id="alarm-time" required>
+            <button id="btn">LOCK SIGNAL</button>
+        </div>
+
+        <div id="alert" class="alert-pan hidden">
+            <p class="msg">⚠ SOMETHING STRANGE DETECTED ⚠</p>
+            <button id="off-btn">STOP ALARM</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
